@@ -5,9 +5,17 @@ For Assignment 4, I went back and took the assets from my Assignment 1 to comple
 This game uses A (left), D(right), and space (jump). You can double jump if you press space twice. Player does have gravity.
 
 The sprite's animations come in the form of jumping, when jumping it will smile and raise an arm up to mimic the jumping movement. 
+
 The enemies navigation comes in the form of patrolling. They patrol to the edge of the nearest wall, and then will go back to the other wall and repeat.
+
 Particle effects both require the player. When running, little particles appear behind him like small dust storms. When dying, a small explosion of particles appears. The Gems also have a small glitter particle effect on them to make them more enticing.
-Collision interactions, if the player touches a spike, or an enemy, they respawn at the beginning. The player can walk/run/jump on all platforms and such, and cannot "phase" or run through any unintended places.
+
+Collision interactions, if the player touches a spike, or an enemy, they respawn at the beginning.
+
+The player can walk/run/jump on all platforms and such, and cannot "phase" or run through any unintended places.
+
 For the UI, there is a counter to show you how many gems you have collected.
+
 All code has been completed in C#
+
 TileMap and TileSet were implemented as assets for this game.
