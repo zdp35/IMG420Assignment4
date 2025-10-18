@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://7pnfpx1niffd"]
+
+[node name="AudioManager" type="Node"]
+
+[node name="JumpSfx" type="AudioStreamPlayer" parent="."]
+volume_db = 1.5
+
+[node name="CoinPickup" type="AudioStreamPlayer" parent="."]
+volume_db = 1.5
+
+[node name="DeathSfx" type="AudioStreamPlayer" parent="."]
+
+[node name="RespawnSfx" type="AudioStreamPlayer" parent="."]
+
+[node name="LevelCompleteSfx" type="AudioStreamPlayer" parent="."]
+volume_db = -2.0
+pitch_scale = 0.5
