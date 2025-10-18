@@ -19,3 +19,6 @@ For the UI, there is a counter to show you how many gems you have collected.
 All code has been completed in C#
 
 TileMap and TileSet were implemented as assets for this game.
+
+
+Here is the link to the video demonstration: https://youtu.be/z8PG0KvEzFM
